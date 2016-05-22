@@ -228,7 +228,6 @@ a:hover {
 **********************************************************************/
 #head {
   background: #f4f4f4 url(../images/home.jpg);
-  
   background-size: cover;
   color: #7C7C7C;
   padding: 20px 600px 100px 0;
@@ -238,13 +237,14 @@ a:hover {
   width: 140px;
   height: 140px;
   overflow: hidden;
-  border: 9px solid rgba(0, 0, 0, 0.05);
+  border-style: solid;
+  border-width: medium; 
   margin: 0 auto;
 }
 #head .title {
   font-family: Alice, Georgia, serif;
   font-size: 53px;
-  font-size: 3.0625rem;
+  font-size: 5.0625rem;
   color: white;
 }
 #head .title a {
@@ -254,8 +254,8 @@ a:hover {
 #head .tagline {
   display: block;
   font-size: 16px;
-  font-size: 0.875rem;
-  line-height: 1.2em;
+  font-size: 4.875rem;
+  line-height: 3.2em;
   color: #ffffff;
   margin: 5px 0 0;
 }
